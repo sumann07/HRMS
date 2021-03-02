@@ -63,7 +63,7 @@ const DashboardLayout = ({children}) =>{
                         ))}
                     </div>
                     <div className="image-container-small">
-                        Add vector of your choice
+                        <img class="vector-image" src="https://cdni.iconscout.com/illustration/premium/thumb/best-friends-celebrating-and-having-a-party-2812437-2352136.png" alt="vector-image"/>
                     </div>
                 </nav>
                 <div className="main-container">

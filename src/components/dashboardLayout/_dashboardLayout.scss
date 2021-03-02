@@ -1,6 +1,6 @@
 .dashboard-layout{
     display: flex;
-    height: 98vh;
+    height: 95vh;
     max-height: 98vh;
     padding: 12px;
     background: $hr_background;
@@ -11,10 +11,24 @@
         background: $hr_background;
 
     }
+    .image-container-small {
+        flex-basis: 20%;
+        max-width: 250px;
+        min-width: 200px;
+        margin-top: 20px;
+        
+    }
+    .vector-image {
+        height: 120px;
+        width: 180px;
+    }
     .main-container{
         flex-basis: 100%;
         background:$hr_white;
         border-radius: 25px;
+        box-shadow: -3px -4px 19px -11px rgba(248,243,243,0.75);
+        -webkit-box-shadow: -3px -4px 19px -11px rgba(248,243,243,0.75);
+        -moz-box-shadow: -3px -4px 19px -11px rgba(248,243,243,0.75);
     }
     .logo-container{
         text-align: center;
@@ -31,7 +45,7 @@
             align-items: center;
             color: $hr_white;
             padding: 8px;
-            margin-top: 32px;
+            margin-top: 20px;
             cursor: pointer;
             transition: 0.2s all ease-in-out;
             .item-name{
@@ -49,5 +63,6 @@
             }
         }
     }
+  
 
 }
